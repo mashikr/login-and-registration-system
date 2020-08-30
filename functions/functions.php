@@ -74,10 +74,10 @@ function send_mail($email, $subject, $msg, $headers) {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->isSMTP();
-        $mail->Host       = 'smtp.mailtrap.io';
+        $mail->Host       = 'Your host name';
         $mail->SMTPAuth   = true;
-        $mail->Username   = '9a7ef29288d870';
-        $mail->Password   = '6d95b0cf1b8c96';
+        $mail->Username   = 'Your user name';
+        $mail->Password   = 'Your password';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 25;
 
